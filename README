@@ -1,0 +1,9 @@
+Simple tool to reset arduino via software.
+
+Compile:
+	# gcc -O2 serial_dtr.c -o serial_dtr
+Run:
+	# serial_dtr /dev/ttyUSB0
+
+Tu run it, you may need to be in uucp group (or be a superuser)
+
